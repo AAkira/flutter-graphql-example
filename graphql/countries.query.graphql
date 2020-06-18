@@ -1,0 +1,9 @@
+query GetCountries {
+    Country {
+        name
+        flag {
+            emoji
+            svgFile
+        }
+    }
+}

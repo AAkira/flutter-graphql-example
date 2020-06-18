@@ -1,0 +1,12 @@
+targets:
+  $default:
+    sources:
+      - lib/**
+      - graphql/**
+    builders:
+      artemis:
+        options:
+          schema_mapping:
+            - schema: graphql/schema.graphql
+              queries_glob: graphql/countries.query.graphql
+              output: lib/generated/countries_query.dart

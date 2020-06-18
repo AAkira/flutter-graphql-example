@@ -1,0 +1,34 @@
+name: fluttergraphql
+description: Flutter GraphQL example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+  # GraphQL
+  graphql_flutter: 3.0.1
+  # Provider
+  provider: 4.1.3
+  # freezed
+  freezed_annotation: 0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # freezed
+  json_serializable: 3.3.0
+  build_runner: 1.10.0
+  freezed: 0.11.0
+
+  # GraphQL
+  artemis: 6.4.4-beta.1
+
+flutter:
+  uses-material-design: true
